@@ -14,7 +14,7 @@ int main() {
     else if (score <= 69 && score >= 60)
         cout << "Grade = D";
     else if (score <= 59 && score >= 0)
-        cout << "Grade = A";
+        cout << "Grade = F";
     else cout << "Your score is out of range.";
     return(0);
 }
