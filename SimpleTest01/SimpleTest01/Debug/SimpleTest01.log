@@ -1,0 +1,27 @@
+﻿Build started 8/30/2022 6:58:42 PM.
+     1>Project "c:\Users\ADMIN\documents\visual studio 2010\Projects\SimpleTest01\SimpleTest01\SimpleTest01.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SimpleTest01.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\admin\documents\visual studio 2010\projects\simpletest01\simpletest01\main.cpp(7): warning C4101: 'com' : unreferenced local variable
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\admin\documents\visual studio 2010\Projects\SimpleTest01\Debug\SimpleTest01.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SimpleTest01.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\admin\documents\visual studio 2010\Projects\SimpleTest01\Debug\SimpleTest01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\admin\documents\visual studio 2010\Projects\SimpleTest01\Debug\SimpleTest01.lib" /MACHINE:X86 Debug\SimpleTest01.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\SimpleTest01.exe.embed.manifest" /manifest Debug\SimpleTest01.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         SimpleTest01.vcxproj -> c:\users\admin\documents\visual studio 2010\Projects\SimpleTest01\Debug\SimpleTest01.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\SimpleTest01.unsuccessfulbuild".
+         Touching "Debug\SimpleTest01.lastbuildstate".
+     1>Done Building Project "c:\Users\ADMIN\documents\visual studio 2010\Projects\SimpleTest01\SimpleTest01\SimpleTest01.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.48
